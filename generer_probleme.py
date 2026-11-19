@@ -130,6 +130,7 @@ if __name__ == "__main__":
             seed=int(sys.argv[1])
             random.seed(seed)
             probleme = tirer_cartons_nombre()
+            
         else : 
             match arg : 
                 case "impossible" : 
